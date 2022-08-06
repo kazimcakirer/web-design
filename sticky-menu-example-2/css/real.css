@@ -1,0 +1,94 @@
+body {
+    overflow-x: hidden;
+}
+
+.header-top {
+    background: none repeat scroll 0 0 hsl(271deg, 50%, 26%);
+    padding: 10px 0px 0px;
+    width: 100%;
+    z-index: 999;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.header-top ul {
+    text-align: center;
+}
+
+.header-top ul li {
+    color: #fff;
+}
+
+.header-top ul li a {
+    color: #fff;
+    margin-right: 80px;
+}
+
+.header-top ul li:last-child a {
+    margin-right: 0px;
+}
+
+
+nav.navbar.navbar-default.nav-bar {
+    background-color: #7b42ac;
+    border: 0px;
+    border-radius: 0px;
+    margin-bottom: 0px !important;
+    transition: all ease 0.5s;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 0px;
+
+}
+
+nav.navbar.navbar-default.nav-bar.fixedbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(16, 16, 16, 0.35);
+    backdrop-filter: blur(11.0px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 10px 0px;
+
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all ease 1s;
+}
+
+ul.nav.navbar-nav.menu {
+    float: right;
+    margin: 0;
+}
+
+nav.navbar.navbar-default.nav-bar ul li a {
+    font-size: 16px;
+    color: #fff;
+    transition: all ease 1s;
+}
+
+a.buy-btn {
+    background-color: #358ccf;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    line-height: 20px !important;
+}
+
+.banner-inner {
+    padding: 0px;
+}
+
+.left-banner-inner {
+    height: 100vh;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}

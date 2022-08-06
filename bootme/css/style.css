@@ -1,0 +1,152 @@
+h3 {
+    font-size:28px;
+    font-weight:lighter ;
+}
+h2 {
+    font-size:32px;
+    text-transform: uppercase;
+    color: #1886C7;
+}
+p{
+    font-size: 14px;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+.navbar {
+    border-bottom: 1px solid #1886C7;
+}
+.navbar-brand {
+
+    color: #1886C7 !important;
+    font-size:24px;
+}
+.bg-dark {
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+.nav-link {
+    color:#fff !important;
+    text-transform: uppercase;
+    transition: color .5s ease;
+}
+.nav-link:hover {
+    color: #1886C7 !important;
+}
+#headerSection {
+    background: url("../images/bg.jpg") center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+#headerSection .overlay{
+    background-color:rgba(0, 0, 0, .7);
+}
+#headerSection .row {
+    height: 100vh;
+}
+#headerSection  h1 {
+    color:#fff;
+    font-weight: 60px !important;
+
+}
+#headerSection h1 span {
+    color:#1886C7;
+}
+.btn-outline-primary {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    cursor: pointer !important;
+    border-radius: 0 !important;
+}
+
+/* features section*/
+.features .fa {
+    font-size: 40px;
+    font-weight: 300px;
+}
+.features {
+    transition: color .5s ease;
+    cursor: pointer;
+}
+.features:hover > i, .features:hover h3 {
+    color:#1886C7;
+}
+/* our history section */
+#ourHistory h2 {
+    border-left: 6px solid #1886C7;
+    padding-left: 30px;
+}
+
+#ourHistory .col-md-6 {
+    display: inline;
+}
+#ourHistory .btn-outline-primary {
+    position: absolute !important;
+    bottom: 10px;
+}
+
+#ourHistory p {
+    line-height: 28px;
+}
+
+
+
+/* team section */
+
+#teamSection .card {
+    border:none;
+    opacity: .5;
+    cursor: pointer;
+    transition: opacity .5s;
+}
+#teamSection .card:hover {
+    opacity: 1;
+}
+#teamSection .fa {
+    font-size:24px;
+}
+
+/*do section*/
+#doSection {
+    background: linear-gradient( to right,rgba(0,0,0, .4), rgba(0,0,0,.7)), url(../images/code.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#doSection h2 {
+    font-weight: 700;
+    text-shadow: 3px 3px 2px rgba(255, 255, 255, .7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
